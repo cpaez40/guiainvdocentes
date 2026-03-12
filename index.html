@@ -1169,7 +1169,7 @@
             <i class="fas fa-microscope"></i> Modalidades de Grado
         </button>
         <button class="nav-btn" onclick="showPane('tramites')">
-            <i class="fas fa-clipboard-check"></i> Trámites y Gestión
+            <i class="fas fa-clipboard-check"></i> Gestión administrativa
         </button>
         <button class="nav-btn" onclick="showPane('evaluacion')">
             <i class="fas fa-star-half-alt"></i> Evaluación Pre-proyecto
@@ -1562,6 +1562,47 @@
                 <p><strong>Nota Adicional:</strong> Además de los requisitos de investigación, existen procesos
                     administrativos que deben consultarse directamente en los canales oficiales de la institución.</p>
             </div>
+
+            <!-- Requisitos de Grado -->
+            <div class="info-header" style="margin-top: 50px; margin-bottom: 30px;">
+                <h2 style="font-size: 1.5rem; color: var(--brand-black);">REQUISITOS DE GRADO</h2>
+            </div>
+            
+            <div style="border: 2px dashed var(--brand-green); padding: 40px 20px; border-radius: 15px; margin-bottom: 30px; background-color: #fdfdfd;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 30px;">
+                    <!-- 1. Bilingüismo -->
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.2rem; font-weight: bold; color: var(--brand-green); margin-bottom: 15px;">1</div>
+                        <i class="fas fa-language" style="font-size: 2.8rem; color: #8c7ce6; margin-bottom: 15px; display: block;"></i>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-dark);">Cumplimiento de Bilingüismo (lo puedes hacer desde primer semestre).</p>
+                        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 8px;">Lo puedes verificar en la página oficial de Areandina.</p>
+                    </div>
+                    <!-- 2. Plan de Estudios -->
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.2rem; font-weight: bold; color: var(--brand-green); margin-bottom: 15px;">2</div>
+                        <i class="fas fa-award" style="font-size: 2.8rem; color: #f59c2f; margin-bottom: 15px; display: block;"></i>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-dark);">Completar el Plan de Estudios.</p>
+                    </div>
+                    <!-- 3. Opción de Grado -->
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.2rem; font-weight: bold; color: var(--brand-green); margin-bottom: 15px;">3</div>
+                        <i class="fas fa-user-graduate" style="font-size: 2.8rem; color: #2d3436; margin-bottom: 15px; display: block;"></i>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-dark);">Realizar la Opción de Grado.</p>
+                    </div>
+                    <!-- 4. Actualizar Datos -->
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.2rem; font-weight: bold; color: var(--brand-green); margin-bottom: 15px;">4</div>
+                        <i class="fas fa-mobile-alt" style="font-size: 2.8rem; color: #4a69bd; margin-bottom: 15px; display: block;"></i>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-dark);">Actualizar tus datos.</p>
+                    </div>
+                    <!-- 5. Paz y Salvo -->
+                    <div style="text-align: center;">
+                        <div style="font-size: 1.2rem; font-weight: bold; color: var(--brand-green); margin-bottom: 15px;">5</div>
+                        <i class="fas fa-file-invoice-dollar" style="font-size: 2.8rem; color: #7fb536; margin-bottom: 15px; display: block;"></i>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-dark);">Obtener Paz y Salvo financiero.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- PANE 3: TRÁMITES -->
@@ -1569,6 +1610,22 @@
             <div class="info-header">
                 <h1>Gestión de Pre-proyecto y Ética</h1>
                 <p>El camino administrativo para la validez institucional de tu trabajo.</p>
+            </div>
+
+            <!-- Drive Folder Card -->
+            <div style="max-width: 900px; margin: 0 auto 40px auto; background: linear-gradient(135deg, #f0f7ff 0%, #e6f0fa 100%); border: 1px solid #cce3ff; border-radius: 16px; padding: 30px; display: flex; align-items: center; justify-content: space-between; gap: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <h3 style="color: #0056b3; margin-bottom: 10px; display: flex; align-items: center; gap: 10px;">
+                        <i class="fab fa-google-drive" style="font-size: 1.5rem;"></i> Formatoteca Oficial
+                    </h3>
+                    <p style="color: #334155; font-size: 0.95rem; margin-bottom: 10px;">Accede a todos los formatos institucionales requeridos para tu proceso de grado.</p>
+                    <p style="color: var(--brand-pink); font-size: 0.85rem; font-weight: 600;"><i class="fas fa-exclamation-triangle"></i> Obligatorio ingresar con tu correo institucional (@areandina.edu.co)</p>
+                </div>
+                <div>
+                    <a href="https://drive.google.com/drive/folders/1RqVANhRLQ5xiSySykWmdl7NpiR3w7kng?usp=sharing" target="_blank" style="background: var(--brand-green); color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s ease; box-shadow: 0 4px 10px rgba(127, 181, 54, 0.3);">
+                        Abrir Carpeta <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
             </div>
 
             <div class="procedure-flow">
@@ -1616,6 +1673,9 @@
                             </div>
 
                             <div class="path-steps">
+                                <div style="color: var(--brand-pink); font-size: 0.9rem; margin-bottom: 15px; padding: 12px; background: rgba(230,0,126,0.05); border-radius: 8px; border-left: 4px solid var(--brand-pink);">
+                                    <strong><i class="fas fa-info-circle"></i> Nota Aclaratoria:</strong> Quien sube y carga los documentos correspondientes ante el comité de manera exclusiva es la coordinación de la maestría.
+                                </div>
                                 <strong>Proceso para postulación al CEBIS:</strong>
                                 <ol style="padding-left: 20px; margin-top: 10px;">
                                     <li>Solicitar al asesor la <strong>carta de aval</strong> del protocolo de trabajo
@@ -1642,7 +1702,7 @@
                                 de trabajo de grado**.</p>
                             <p style="font-size: 0.9rem; margin: 15px 0 10px 0;"><strong>Documentos para la
                                     solicitud:</strong></p>
-                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+                            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px;">
                                 <div
                                     style="background: #fff; border: 1px solid #ddd; padding: 10px; border-radius: 8px; font-size: 0.75rem; text-align: center;">
                                     Carta de aval del asesor</div>
@@ -1652,6 +1712,9 @@
                                 <div
                                     style="background: #fff; border: 1px solid #ddd; padding: 10px; border-radius: 8px; font-size: 0.75rem; text-align: center;">
                                     Sometimiento de Artículo</div>
+                                <div
+                                    style="background: #fff; border: 1px solid var(--brand-green); color: var(--brand-green); padding: 10px; border-radius: 8px; font-size: 0.75rem; text-align: center; font-weight: 600; box-shadow: 0 2px 8px rgba(127, 181, 54, 0.15);">
+                                    Informe Turnitin (&lt;20% similitud)</div>
                             </div>
                         </div>
                     </div>
@@ -1840,7 +1903,7 @@
             { id: 'coherencia', label: 'Coherencia y Formulación', weight: 0.20 },
             { id: 'antecedentes', label: 'Antecedentes y Marco Teórico', weight: 0.20 },
             { id: 'metodologia', label: 'Metodología y Ética', weight: 0.20 },
-            { id: 'viabilidad', label: 'Viabilidad', weight: 0.15 },
+            { id: 'viabilidad', label: 'Viabilidad y factibilidad', weight: 0.15 },
         ];
 
         const LEVELS = [
@@ -1877,9 +1940,9 @@
             },
             viabilidad: {
                 insuficiente: 'Cronograma y recursos sin relación con objetivos. Sin acceso a población.',
-                bueno: 'Planeación básica con tiempos irreales o recursos insuficientes. Viabilidad dudosa.',
+                bueno: 'Planeación básica con tiempos irreales o recursos insuficientes. Viabilidad y factibilidad dudosa.',
                 satisfactorio: 'Relación lógica entre tiempos y recursos. Demuestra acceso a la información/población.',
-                excelente: 'Planificación rigurosa. Recursos garantizados. La investigación es viable y coherente.',
+                excelente: 'Planificación rigurosa. Recursos garantizados. La investigación es viable, factible y coherente.',
             },
         };
 
